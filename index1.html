@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>New project</title>
+</head>
+<body>
+    <div class="header">
+        <div id="container">
+            <div class="top_nav">
+                <ul>
+                    <li><a href="#">BẢNG XẾP HẠNG</a>
+                      <ul>
+                        <li><a href="#">le ngoc viet1</a></li>
+                        <li><a href="#">le ngoc viet2</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">NHẬN ĐỊNH</a></li>
+                    <li><a href="#">TRỰC TIẾP</a></li>
+                    <li><a href="#">HIGHLIGHT</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="logomoi.jpg" alt="logo">
+            </div>
+        </div>
+      </div>
+      <div id="topnavv">
+      <div class="topnav" id="myTopnav">
+        <a href="#" class="active"><i class="fa fa-fw fa-home"></i>Trang chủ</a>
+        <a href="#">Bóng Đá Thế Giới</a>
+        <a href="#">Bundesliga</a>
+        <div class="dropdown" class="clear-fix">
+          <button class="dropbtn"></button>
+          <a href="#" >Thị Trường Chuyển Nhượng <i class="fa fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">link 4</a>
+            <a href="#">link 4</a>
+            <a href="#">link 4</a>
+            <a href="#">link 4</a>
+            
+          </div>
+        </div>
+        <a href="#">Ngoại Hạng Anh</a>
+        <a href="#">Lịch Thi Đấu</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i>Liên Hệ</a>
+        <a onclick="document.getElementById('id01').style.display='block'" href="#" class="user"><i class="fa fa-user icon" ></i>Đăng Nhập</a>
+        <div id="id01" class="modal">  
+            <form class="modal-content animate" action="" method="post">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Form">&times;</span>
+                  <img src="https://hanhtrinhmouoc2018.thanhnien.vn/img/general/none-avatar.png" alt="Avatar" class="avatar">
+                </div>
+            
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" id="showpass" placeholder="Enter Password" name="psw" required>
+                  <input type="checkbox" onclick="showPassword()">Show Password
+                  <button type="submit">Login</button>                
+                    <input type="checkbox" checked="checked" name="remember"> Remember me            
+                </div>
+            
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="reset"  class="cancelbtn">Cancel</button>
+                  <span class="psw"><a href="#">Forgot Password?</a></span>
+                  <span class="psw"><a href="SignUp.html">Do not have an acount?</a></span>
+                </div>
+            </form>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade" id="current">
+          <img src="https://scontent-sin6-3.xx.fbcdn.net/v/t1.0-9/106346630_1133791333660502_4850369668993766198_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=ihbX1dELhuMAX__qDF0&_nc_ht=scontent-sin6-3.xx&oh=cf819f967a4f7df46008c0310aa0fb36&oe=606C4F52" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="anhvn.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="barca.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick=""></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>VĂN TOÀN ĐƯỢC CLB CŨ CỦA ALABA QUAN TÂM </h2>
+            <h5>VietFootBall,thứ 4,march 3, 2021</h5>
+            <div class="fakeimg" ><img src="https://cafebiz.cafebizcdn.vn/2019/1/1/photo-5-15463254949081706858677.jpg" alt=""></div>
+            <p>Tiền đạo Văn Toàn đang được một clb của châu âu quan tâm</p>
+            <p>Văn Toàn được xem là tiền đạo nội xuất sắc của bóng đá Việt Nam từng sản sinh</p>
+          </div>
+          <div class="card">
+            <h2>TIN HOT CHUYỂN NHƯỢNG SIÊU TIỀN ĐẠO NEYMAR</h2>
+            <h5>VietFootBall, March 1, 2021</h5>
+            <div class="fakeimg" ><img src="https://cdnimg.vietnamplus.vn/uploaded/mtpyelagtpy/2018_08_09/neymar_09.jpg" alt="anhneymar"></div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+          <div class="card">
+            <h2>TIN HOT CHUYỂN NHƯỢNG SIÊU TIỀN ĐẠO NEYMAR</h2>
+            <h5>VietFootBall, March 1, 2021</h5>
+            <div class="fakeimg" ><img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/39023237_657984921241148_7272503414615965696_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=19026a&_nc_ohc=sL3vw5e3vBIAX8BBvYE&_nc_ht=scontent-sin6-1.xx&oh=a0b0b06657626761aa7e9b310e7ce7b2&oe=606F765A" alt="anhneymar"></div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>TIN ĐỌC NHIỀU</h2>
+            <div class="fakeimg" style="height:100px;">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          </div>
+          <div class="card">
+            <h3>TIN HOT TRONG TUẦN</h3>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+          </div>
+          <div class="card" style="padding: 0px;">
+            <div id="search"><h4>Tìm Kiếm</h4></div>
+            <form action="" class="search-bar">
+              <input type="search" placeholder="what are you looking for?" name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="footer">
+          <p>&copy; copyright by lengocviet 04/05/2021</p>
+      </div> 
+      <script>
+        var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      //---automotic slideshow
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for ( i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 2 seconds
+      }
+        //responsive menu
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      } 
+      //show password when checkbox is selected
+      function showPassword(){
+        var x = document.getElementById("showpass");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+     }
+     
+       /*phải đặt đoạn mã này dưới cùng để đảm bảo html đã được load rồi thì đoạn mã mới có tác dụng*/ 
+       window.onscroll = function() {slideFunction()};
+        var navbar = document.getElementById("topnavv");
+        var sticky = navbar.offsetTop;
+        function slideFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        } 
+      </script> 
+</body>
+</html>
